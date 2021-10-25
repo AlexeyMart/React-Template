@@ -1,0 +1,13 @@
+.main__title {
+  color: #315efb;
+}
+
+.main__image {
+  width: 200px;
+  height: 200px;
+  margin-right: 50px;
+}
+
+.main__image:last-child {
+  margin-right: 0;
+}
