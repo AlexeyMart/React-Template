@@ -14,9 +14,13 @@ const App: FC = () => {
     <div className="main">
       <h1 className="main__title">React Typescript Webpack Template</h1>
 
-      <img src={ReactImage} alt="main__logo" className="image" />
+      {/* <div>
+        Process is {process.env.NODE_ENV} {process.env.name}
+      </div> */}
 
-      <img src={ReactLogo} alt="main__logo" className="image" />
+      <img src={ReactImage} alt="logo" className="main__image" />
+
+      <img src={ReactLogo} alt="logo" className="main__image" />
     </div>
   );
 };
