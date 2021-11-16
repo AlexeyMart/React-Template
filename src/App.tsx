@@ -1,13 +1,13 @@
-import { FC } from "react";
+import { FC } from 'react';
 
 // Styles
-import "./styles.css";
+import './styles.css';
 
 // Images
-import ReactImage from "./assets/images/favicon.png";
+import ReactImage from './assets/images/favicon.png';
 
 // Svg
-import ReactLogo from "./assets/svg/react-logo.svg";
+import ReactLogo from './assets/svg/react-logo.svg';
 
 const App: FC = () => {
   return (
